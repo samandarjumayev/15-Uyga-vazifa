@@ -1,0 +1,510 @@
+/* Umumiy Style */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clr{
+    clear: both;
+}
+
+
+/* Header Style */
+
+.header{
+    padding: 15px 0;
+    position: relative;
+    top: -15px;
+}
+
+.nav_flex {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10%;
+    box-shadow: 0px 0px 20px 0px black;
+    z-index: 5;
+}
+
+.header__logo{
+    display: inline-block;
+}
+.header__nav{
+    display: inline-block;
+    cursor: context-menu;
+}
+.header__logo img{
+    width: 62px;
+    vertical-align: middle;
+    padding-right: 70px;
+    vertical-align: middle;
+}
+.header__nav a{
+    text-decoration: none;
+    color: #797979;
+    padding: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: 400ms;
+}
+.header__nav a:hover{
+    color: coral;
+    transition: 400ms;
+}
+.header__nav .active{
+    color: coral;
+}
+
+
+/*   Men Haqimda   */
+
+.box{
+    float: left;
+    box-sizing: border-box;
+}
+.aboutme__info{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 90px 0;
+    width: 59%;
+}
+.aboutme__info h1{
+    font-family: monospace;
+    font-size: 52px;
+    margin: 17px 0;
+}
+.aboutme__info h4{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+.aboutme__info h3{
+    font-family: cursive;
+    font-weight:normal;
+    margin: 28px 0;
+}
+.aboutme__img{
+    width: 41%;
+    margin-top: 10vh;
+}
+.aboutme__img img{
+    width: 350px;
+}
+.aboutme__info button{
+    width: 190px;
+    height: 41px;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #155CFF;
+    color: #fff;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.aboutme__info button:hover{
+    box-shadow: inset 0px -50px 20px 0px #00FF3C;
+    transition: 600ms;
+    color: black;
+    cursor: pointer;
+}
+.aboutme__info button:active{
+    transform: scale(0.9);
+    transition: 200ms;
+}
+.aboutme__social a{
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 16px;
+    margin-bottom: 50px;
+    color: #8FA1AA;
+}
+.aboutme__social a:hover{
+    color: #1C44E4;
+}
+
+
+/*  Reyting   */
+
+.reyting__box{
+    width: 150px;
+    height: 70px;
+    padding: 15px 0;
+    float: left;
+    text-align: center;
+    margin-right: 2px;
+    border-radius: 2px;
+}
+.reyting__box:hover {
+    background-color: #7979;
+    cursor: pointer;
+}
+.reyting__box h3{
+    font-size: 27px;
+    color: blueviolet;
+    font-family: monospace;
+    padding: 7px 0
+}
+.reyting__box p{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #292929;
+}
+
+/* Haqimda */
+.qismlar {
+    width: 50%;
+    float: left;
+}
+.haqimda__info{
+    height: 300px;
+}
+.haqimda__img img{
+    width: 90%;
+    padding: 17px;
+}
+.haqimda__info h5{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: coral;
+    font-size: 12px;
+    margin: 17px 0;
+}
+.haqimda .haqimda__blur{
+    filter: blur(2px);
+    background-color: red;
+    z-index: -1;
+}
+.haqimda__info h2{
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: 41px;
+    margin: 15px 0;
+    color: darkslateblue;
+}
+.haqimda__info p{
+    font-family:monospace;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 15px 0;
+    color: #393939;
+}
+
+.haqimda button{
+    margin: 15px 0;
+    width: 190px;
+    height: 41px;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #155CFF;
+    color: #fff;
+    border-radius: 5px;
+    transition: 300ms;
+}
+.haqimda button:hover{
+    box-shadow: inset 0px -50px 20px 0px #00FF3C;
+    transition: 600ms;
+    color: black;
+    cursor: pointer;
+}
+.haqimda button:active{
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+/* Mening Oxirgi ishlarim */
+.lastwork {
+    height: 750px;
+}
+.lastwork h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #736600;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+.lastwork h2{
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #00615a;
+    padding: 7px 0;
+}   
+.lastwork_nav{
+    padding: 12px;
+}
+.lastwork__nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 0;
+    padding-right: 17px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #546100;
+}
+.lastwork__nav a:hover{
+    color: #9eb700;
+    cursor: pointer;
+}
+.lastwork__box-1{
+    width: 50%;
+    float: left;
+}
+.lastwork__box-1 img{
+    width: 90%;
+}
+.lastwork__box-2 img{
+    padding: 70px 0;
+}
+.box-2_img-1{
+    margin: 15px 0;
+}
+
+
+/*   Men Taklif Qilgan Xizmatlar  */
+
+.xizmatlar {
+    padding: 50px 0px;
+    padding-bottom: 47px;
+    margin-top: 37px;
+}
+
+.xizmatlar__title {
+    text-transform: uppercase;
+    color: #4f6100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.xizmatlar__subtitle {
+    font-size: 41px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 20px 0;
+    color: #220061;
+}
+
+.xizmatlar__photo {
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.xizmatlar__box {
+    width: 33%;
+    float: left;
+    padding: 47px 77px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.xizmatlar__box:hover {
+    background-color: #5e08c1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.xizmatlar__box__img{
+    width: 33%;
+}
+
+.xizmatlar__box__title {
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 0;
+}
+
+.xizmatlar__box__parag {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 12px 0;
+}
+
+.xizmatlar__box__link {
+    padding: 15px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #00a2ff;
+}
+
+.xizmatlar__box__link:hover {
+    color: #eae204;
+}
+
+/*   /Men Taklif Qilgan Xizmatlar  */
+
+
+/*   Maqolalarim  */
+.maqolalarim_subtitle {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #736600;
+}
+
+.maqolalarim_subtitle span{
+    filter: blur(3px);
+    background-color: tomato;
+    border-radius: 7px;
+}
+
+.maqolalarim_box {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.maqolalarim_title {
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 44px;
+    color: #370076;
+}
+
+.maqolalarim__box {
+    width: 45%;
+    float: left;
+}
+
+.maqolalarim__box img {
+    width: 100%;
+    background-image: linear-gradient(to top right, blue, red);
+    border-top-left-radius: 357px;
+    border-top-right-radius: 397px;
+    border-bottom-left-radius: 350px;
+}
+
+.mening_maqolam {
+    padding: 213px 32px;
+}
+
+.maqolalarim__title {
+    font-family: cursive;
+    font-size: 32px;
+    padding: 12px 0;
+    color: #00630f;
+}
+
+.maqolalarim__parag-1 {
+    margin: 12px 0;
+    font-family: monospace;
+    letter-spacing: -1px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.maqolalarim__parag-2 {
+    font-family: sans-serif;
+    margin: 15px 0;
+    color: #4e4e4e;
+}
+
+.maqolalarim__parag-2::selection {
+    background-color: #00FF3C;
+}
+
+.maqolalarim__star i {
+    color: rgb(208, 255, 0);
+    font-size: 22px;
+}
+
+/*   /Maqolalarim  */
+
+
+/*   Oxirgi Maqolalarim   */
+.oxirgimaqolam {
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+.oxirgimaqolam__subtitle {
+    color: #546100;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.oxirgimaqolam__title {
+    color: #370076;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.oxirgimaqolam_box {
+    height: 500px;
+    padding: 30px;
+}
+
+.oxirgimaqolam__box {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.oxirgimaqolam__box img{
+    width: 80%;
+    padding: 17px 0;
+    margin-bottom: 3px;
+}
+
+.oxirgimaqolam__info{
+    padding: 0 50px;
+}
+
+.oxirgimaqolam__info h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0;
+    font-weight: 900;
+    text-align: left;
+}
+
+.oxirgimaqolam__info p {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.oxirgimaqolam__info a {
+    margin: 15px 0;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.oxirgimaqolam__info i{
+    margin: 0 3px;
+    margin-left: 9px;
+    color: #656565;
+}
+
+.oxirgimaqolam__info span {
+    color: #656565;
+}
+/*   Oxirgi Maqolalarim   */
